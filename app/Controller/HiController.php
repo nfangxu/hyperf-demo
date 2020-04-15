@@ -11,13 +11,16 @@ declare(strict_types=1);
  */
 namespace App\Controller;
 
+use App\Service\ReporterInterface;
 use Grpc\HiReply;
 use Grpc\HiUser;
 
 class HiController
 {
-    public function sayHello(HiUser $user)
+    public function sayHello(HiUser $user, ReporterInterface $reporter)
     {
+        $reporter->report(['msg' => 'di in grpc']);
+
         $message = new HiReply();
         $message->setMessage('Hello World');
         $message->setUser($user);

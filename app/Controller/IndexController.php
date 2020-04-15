@@ -9,12 +9,17 @@ declare(strict_types=1);
  * @contact  group@hyperf.io
  * @license  https://github.com/hyperf-cloud/hyperf/blob/master/LICENSE
  */
+
 namespace App\Controller;
+
+use App\Service\ReporterInterface;
 
 class IndexController extends AbstractController
 {
-    public function index()
+    public function index(ReporterInterface $reporter)
     {
+        $reporter->report(['msg' => 'di in http']);
+
         $user = $this->request->input('user', 'Hyperf');
         $method = $this->request->getMethod();
 
