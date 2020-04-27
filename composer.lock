@@ -804,16 +804,16 @@
         },
         {
             "name": "hyperf/database",
-            "version": "v1.1.26",
+            "version": "v1.1.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/database.git",
-                "reference": "8ace43edb41c548f3b50865ed9961bf3bb517a33"
+                "reference": "5435b69be75f3b14ddaa2f1a6028a16eb69a96dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/database/zipball/8ace43edb41c548f3b50865ed9961bf3bb517a33",
-                "reference": "8ace43edb41c548f3b50865ed9961bf3bb517a33",
+                "url": "https://api.github.com/repos/hyperf/database/zipball/5435b69be75f3b14ddaa2f1a6028a16eb69a96dd",
+                "reference": "5435b69be75f3b14ddaa2f1a6028a16eb69a96dd",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -838,7 +838,7 @@
             },
             "suggest": {
                 "doctrine/dbal": "Required to rename columns (^2.6).",
-                "nikic/php-parser": "Required to use ModelCommand (^4.1)."
+                "roave/better-reflection": "Required to use ModelCommand (^4.0)."
             },
             "type": "library",
             "extra": {
@@ -862,7 +862,7 @@
                 "hyperf",
                 "php"
             ],
-            "time": "2020-04-16T04:30:01+00:00"
+            "time": "2020-04-20T04:43:50+00:00"
         },
         {
             "name": "hyperf/db-connection",
@@ -1191,16 +1191,16 @@
         },
         {
             "name": "hyperf/framework",
-            "version": "v1.1.26",
+            "version": "v1.1.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/framework.git",
-                "reference": "0b3be5224408f4921be727f1dfa5ca571aa3f1f8"
+                "reference": "a41468dafd35e65bed13a6daf94cff574df55ee3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/framework/zipball/0b3be5224408f4921be727f1dfa5ca571aa3f1f8",
-                "reference": "0b3be5224408f4921be727f1dfa5ca571aa3f1f8",
+                "url": "https://api.github.com/repos/hyperf/framework/zipball/a41468dafd35e65bed13a6daf94cff574df55ee3",
+                "reference": "a41468dafd35e65bed13a6daf94cff574df55ee3",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1218,6 +1218,9 @@
                 "psr/container": "^1.0",
                 "psr/event-dispatcher": "^1.0",
                 "psr/log": "^1.0"
+            },
+            "conflict": {
+                "symfony/event-dispatcher": "<4.3"
             },
             "require-dev": {
                 "doctrine/common": "@stable",
@@ -1260,7 +1263,7 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-04-16T03:41:10+00:00"
+            "time": "2020-04-20T02:12:34+00:00"
         },
         {
             "name": "hyperf/guzzle",
@@ -1951,16 +1954,16 @@
         },
         {
             "name": "hyperf/utils",
-            "version": "v1.1.26",
+            "version": "v1.1.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/utils.git",
-                "reference": "86701a09d4663b5e79b6befa0fe50aa63282a05e"
+                "reference": "aa152d3d707e8ccd0fc0585b3f73140a97695c1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/utils/zipball/86701a09d4663b5e79b6befa0fe50aa63282a05e",
-                "reference": "86701a09d4663b5e79b6befa0fe50aa63282a05e",
+                "url": "https://api.github.com/repos/hyperf/utils/zipball/aa152d3d707e8ccd0fc0585b3f73140a97695c1f",
+                "reference": "aa152d3d707e8ccd0fc0585b3f73140a97695c1f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2019,7 +2022,7 @@
                 "swoole",
                 "utils"
             ],
-            "time": "2020-04-16T07:02:05+00:00"
+            "time": "2020-04-23T04:10:45+00:00"
         },
         {
             "name": "jetbrains/phpstorm-stubs",
@@ -4915,16 +4918,16 @@
         },
         {
             "name": "hyperf/devtool",
-            "version": "v1.1.26",
+            "version": "v1.1.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hyperf/devtool.git",
-                "reference": "a8121a9d5deedacf6ad198a4cf07df39b991e3d8"
+                "reference": "2f96ea3d2b8eb6c6c73d0f730c9a8b242a6cc4f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hyperf/devtool/zipball/a8121a9d5deedacf6ad198a4cf07df39b991e3d8",
-                "reference": "a8121a9d5deedacf6ad198a4cf07df39b991e3d8",
+                "url": "https://api.github.com/repos/hyperf/devtool/zipball/2f96ea3d2b8eb6c6c73d0f730c9a8b242a6cc4f0",
+                "reference": "2f96ea3d2b8eb6c6c73d0f730c9a8b242a6cc4f0",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4972,7 +4975,7 @@
                 "php",
                 "swoole"
             ],
-            "time": "2020-04-16T04:11:35+00:00"
+            "time": "2020-04-23T05:47:22+00:00"
         },
         {
             "name": "hyperf/testing",
